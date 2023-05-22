@@ -20,7 +20,7 @@ The following functionality was implemented:
 Clone the project
 
 ```bash
-https://link.git
+https://github.com/victrmontero/My_E-Florist.git
 ```
 
 Create a virtual environment
