@@ -1,5 +1,5 @@
 version: "3.9"
-   
+
 services:
   db:
     image: postgres
@@ -13,7 +13,7 @@ services:
     build: .
     command: bash -c "python3 manage.py makemigrations && python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
     volumes:
-      - .:/E-commerce-FlowerShop
+      - .:/MY_E-FLORIST
     ports:
       - "8000:8000"
     depends_on:
